@@ -1,9 +1,4 @@
-body{
-    background-image: url('../public/images/BG\ Shape.png');
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 nav{
     display: flex;
@@ -23,5 +18,5 @@ button{
     font-size: 22px;
     border-radius: 5px;
     padding: 5px 10px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }

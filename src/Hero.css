@@ -1,0 +1,45 @@
+.hero{
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    max-width: 796px;
+    margin: 0 auto;
+    margin-top: 98px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 467px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.hero__search .search{
+    width: 480px;
+    height: 66px;
+    padding: 0 15px;
+    border-radius: 6px;
+}
+.hero__search .btn{
+    position: absolute;
+    right: 390px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #43E7DF;
+    border: none;
+    padding: 15px 28px;
+    
+}
+.hero__search{
+position: relative;
+margin-top: 32px;
+margin-bottom: 98px;
+}
+.hero__img{
+    display: flex;
+    align-items: center;
+}

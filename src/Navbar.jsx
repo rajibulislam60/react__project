@@ -2,6 +2,14 @@ import React from 'react'
 import './Navbar.css'
 
 const Navbar = () => {
+
+  let logClick = ()=>{
+    console.log('login');
+  }
+  let regClick = ()=>{
+    console.log('register');
+  }
+
   return (
     <>
      <nav>
@@ -9,15 +17,15 @@ const Navbar = () => {
             <img src="./images/Logo.png" alt="Logo" />
         </div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="#">Home <i className="fa-solid fa-chevron-down"></i></a></li>
+            <li><a href="#">Features <i className="fa-solid fa-chevron-down"></i></a></li>
+            <li><a href="#">Service <i className="fa-solid fa-chevron-down"></i></a></li>
+            <li><a href="#">Pages <i className="fa-solid fa-chevron-down"></i></a></li>
+            <li><a href="#">Blog <i className="fa-solid fa-chevron-down"></i></a></li>
         </ul>
         <div className='btn'>
-          <button>Sign In</button>
-          <button>Sign Up</button>
+          <button onClick={logClick}>Login</button>
+          <button onClick={regClick}>Register</button>
         </div>
      </nav>
     </>
