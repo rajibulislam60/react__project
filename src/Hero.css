@@ -10,7 +10,7 @@ h1{
     margin: 0 auto;
     margin-top: 98px;
 }
-p{
+.hero p{
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -40,6 +40,17 @@ margin-top: 32px;
 margin-bottom: 98px;
 }
 .hero__img{
-    display: flex;
-    align-items: center;
+    /* position: relative; */
 }
+/* .hero__img .screenImg{
+    position: relative;
+}
+.hero__img .screenImg{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 833px;
+    /* bottom: -50px; */
+    height: 550px;
+    border-radius: 10px;
+} */

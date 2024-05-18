@@ -13,7 +13,8 @@ const Hero = () => {
                     <button className='btn'>Try for free</button>
                 </div>
                 <div className="hero__img">
-                    <img src="./images/Laptop Screen.png" alt="Laptop Screen" />
+                    <img className='laptop' src="./images/Laptop Screen.png" alt="Laptop Screen" />
+                    {/* <img className='screenImg' src="./images/screenImg.jpg" alt="screenImg" /> */}
                 </div>
             </div>
         </div>

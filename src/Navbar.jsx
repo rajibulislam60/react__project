@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import Hero from './Hero'
 
 const Navbar = () => {
 
@@ -12,7 +13,9 @@ const Navbar = () => {
 
   return (
     <>
-     <nav>
+    <div className="navbar">
+      <div className="container">
+        <nav>
         <div>
             <img src="./images/Logo.png" alt="Logo" />
         </div>
@@ -28,6 +31,9 @@ const Navbar = () => {
           <button onClick={regClick}>Register</button>
         </div>
      </nav>
+      </div>
+      <Hero/>
+    </div>
     </>
   )
 }

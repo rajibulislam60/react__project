@@ -1,0 +1,43 @@
+.features{
+    padding: 82px 0;
+    background: #F4F4F4;
+}
+.featuresArea{
+    display: flex;
+    justify-content: space-between;
+}
+.itemchild h5{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+    max-width: 212px;
+    color: #2C2643;
+   margin: 0 0;
+   margin-top: 14px;
+}
+.itemchild p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 212px;
+    color: #645E76;
+    margin-top: 6px;
+}
+.featuresItem__one{
+    display: flex;
+    justify-content: space-between;
+}
+.featuresItem__two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.featuresItem__two .btn{
+    padding: 0 40px;
+    height: 60px;
+    margin-top: 98px;
+    color: white;
+    background: #3639A4;
+    border: none;
+    border-radius: 6px;
+}

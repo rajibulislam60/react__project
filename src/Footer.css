@@ -1,0 +1,23 @@
+.footer{
+    padding: 120px;
+    background: #ffffff;
+}
+.footerArea{
+    display: flex;
+    justify-content: space-between;
+}
+.footerIcon ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+}
+.listItem ul{
+    list-style: none;
+    padding: 0;
+}
+.rightsideArea{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
